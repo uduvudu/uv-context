@@ -37,6 +37,12 @@
   rdfa:prefix "rss" ;
   rdfa:uri "http://purl.org/rss/1.0/" .
 
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Representing Content in RDF 1.0" ;
+  rdfs:isDefinedBy <http://www.w3.org/TR/Content-in-RDF10/> ;
+  rdfa:prefix "cnt" ;
+  rdfa:uri "http://www.w3.org/2011/content#" .
+
 ## Template
 #[] a rdfa:PrefixMapping ;
 #  dcterms:description "" ;
