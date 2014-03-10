@@ -11,7 +11,7 @@ We provide four static files:
 * A manually maintained Turtle file for prefixes which are not in RDFa Core Initial Context.
 * A snapshot of the RDFa Initial Context (in Turtle)
 * A N-Tripes serialization containing prefixes and URIs (RDFa Initial Context and ours)
-* A JSON-LD serialization containing prefixes and URIs (RDFa Initial Context and ours)
+* A [JSON-LD context](http://www.w3.org/TR/json-ld/#the-context) serialization containing prefixes and URIs (RDFa Initial Context and ours)
 
 While there is more information available in the Turtle file, we serialize only rdfa:prefix and rdfa:uri into N-Triples and JSON-LD. Currently the subject URIs are blank nodes.
 
