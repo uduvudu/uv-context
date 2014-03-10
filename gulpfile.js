@@ -30,6 +30,7 @@ gulp.task('fetch', function(){
  */
 gulp.task('compile', function(){
   // place code for your default task here
+  compiler.compile();
 });
 
 /*

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Basic Geo (WGS84 lat/long) Vocabulary" ;
+  rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/> ;
+  rdfa:prefix "geo" ;
+  rdfa:uri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "The DBpedia Ontology" ;
+  rdfs:isDefinedBy <http://wiki.dbpedia.org/Ontology> ;
+  rdfa:prefix "dbo" ;
+  rdfa:prefix "dbpedia-owl" ;
+  rdfa:uri "http://dbpedia.org/ontology/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "A Thing in DBpedia" ;
+  rdfs:isDefinedBy <http://wiki.dbpedia.org/Datasets> ;
+  rdfa:prefix "dbpedia" ;
+  rdfa:uri "http://dbpedia.org/resource/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "DBpedia Data Set Properties" ;
+  rdfs:isDefinedBy <http://dbpedia.org/Datasets/Properties> ;
+  rdfa:prefix "dbpprop" ;
+  rdfa:uri "http://dbpedia.org/property/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "RDF Site Summary (RSS) 1.0" ;
+  rdfs:isDefinedBy <http://web.resource.org/rss/1.0/> ;
+  rdfa:prefix "rss" ;
+  rdfa:uri "http://purl.org/rss/1.0/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Representing Content in RDF 1.0" ;
+  rdfs:isDefinedBy <http://www.w3.org/TR/Content-in-RDF10/> ;
+  rdfa:prefix "cnt" ;
+  rdfa:uri "http://www.w3.org/2011/content#" .
+
+## Template
+#[] a rdfa:PrefixMapping ;
+#  dcterms:description "" ;
+#  rdfs:isDefinedBy <> ;
+#  rdfa:prefix "" ;
+#  rdfa:uri "" .

@@ -1,51 +1,84 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "Basic Geo (WGS84 lat/long) Vocabulary" ;
-  rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/> ;
-  rdfa:prefix "geo" ;
-  rdfa:uri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "The DBpedia Ontology" ;
-  rdfs:isDefinedBy <http://wiki.dbpedia.org/Ontology> ;
-  rdfa:prefix "dbo" ;
-  rdfa:prefix "dbpedia-owl" ;
-  rdfa:uri "http://dbpedia.org/ontology/" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "A Thing in DBpedia" ;
-  rdfs:isDefinedBy <http://wiki.dbpedia.org/Datasets> ;
-  rdfa:prefix "dbpedia" ;
-  rdfa:uri "http://dbpedia.org/resource/" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "DBpedia Data Set Properties" ;
-  rdfs:isDefinedBy <http://dbpedia.org/Datasets/Properties> ;
-  rdfa:prefix "dbpprop" ;
-  rdfa:uri "http://dbpedia.org/property/" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "RDF Site Summary (RSS) 1.0" ;
-  rdfs:isDefinedBy <http://web.resource.org/rss/1.0/> ;
-  rdfa:prefix "rss" ;
-  rdfa:uri "http://purl.org/rss/1.0/" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "Representing Content in RDF 1.0" ;
-  rdfs:isDefinedBy <http://www.w3.org/TR/Content-in-RDF10/> ;
-  rdfa:prefix "cnt" ;
-  rdfa:uri "http://www.w3.org/2011/content#" .
-
-## Template
-#[] a rdfa:PrefixMapping ;
-#  dcterms:description "" ;
-#  rdfs:isDefinedBy <> ;
-#  rdfa:prefix "" ;
-#  rdfa:uri "" .
+_:b0 <http://www.w3.org/ns/rdfa#prefix> "v";
+    <http://www.w3.org/ns/rdfa#uri> "http://rdf.data-vocabulary.org/#".
+_:b1 <http://www.w3.org/ns/rdfa#prefix> "wdrs";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2007/05/powder-s#".
+_:b2 <http://www.w3.org/ns/rdfa#prefix> "sioc";
+    <http://www.w3.org/ns/rdfa#uri> "http://rdfs.org/sioc/ns#".
+_:b3 <http://www.w3.org/ns/rdfa#prefix> "prov";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/prov#".
+_:b4 <http://www.w3.org/ns/rdfa#prefix> "xhv";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/1999/xhtml/vocab#".
+_:b5 <http://www.w3.org/ns/rdfa#prefix> "org";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/org#".
+_:b7 <http://www.w3.org/ns/rdfa#prefix> "grddl";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2003/g/data-view#".
+_:b8 <http://www.w3.org/ns/rdfa#prefix> "rdfs";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2000/01/rdf-schema#".
+_:b10 <http://www.w3.org/ns/rdfa#prefix> "dcat";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/dcat#".
+_:b11 <http://www.w3.org/ns/rdfa#prefix> "dc";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/dc/terms/".
+_:b12 <http://www.w3.org/ns/rdfa#prefix> "vcard";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2006/vcard/ns#".
+_:b13 <http://www.w3.org/ns/rdfa#prefix> "ctag";
+    <http://www.w3.org/ns/rdfa#uri> "http://commontag.org/ns#".
+_:b14 <http://www.w3.org/ns/rdfa#prefix> "og";
+    <http://www.w3.org/ns/rdfa#uri> "http://ogp.me/ns#".
+_:b15 <http://www.w3.org/ns/rdfa#prefix> "rr";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/r2rml#".
+_:b16 <http://www.w3.org/ns/rdfa#prefix> "xml";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/XML/1998/namespace".
+_:b17 <http://www.w3.org/ns/rdfa#prefix> "rev";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/stuff/rev#".
+_:b18 <http://www.w3.org/ns/rdfa#prefix> "rdf";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/1999/02/22-rdf-syntax-ns#".
+_:b19 <http://www.w3.org/ns/rdfa#prefix> "void";
+    <http://www.w3.org/ns/rdfa#uri> "http://rdfs.org/ns/void#".
+_:b20 <http://www.w3.org/ns/rdfa#prefix> "xsd";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2001/XMLSchema#".
+_:b21 <http://www.w3.org/ns/rdfa#prefix> "skos";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2004/02/skos/core#".
+_:b23 <http://www.w3.org/ns/rdfa#prefix> "ical";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2002/12/cal/icaltzd#".
+_:b24 <http://www.w3.org/ns/rdfa#prefix> "wdr";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2007/05/powder#".
+_:b25 <http://www.w3.org/ns/rdfa#prefix> "dcterms";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/dc/terms/".
+_:b26 <http://www.w3.org/ns/rdfa#prefix> "dc11";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/dc/elements/1.1/".
+_:b27 <http://www.w3.org/ns/rdfa#prefix> "rif";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2007/rif#".
+_:b28 <http://www.w3.org/ns/rdfa#prefix> "qb";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/linked-data/cube#".
+_:b29 <http://www.w3.org/ns/rdfa#prefix> "owl";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2002/07/owl#".
+_:b30 <http://www.w3.org/ns/rdfa#prefix> "skosxl";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2008/05/skos-xl#".
+_:b31 <http://www.w3.org/ns/rdfa#prefix> "gr";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/goodrelations/v1#".
+_:b32 <http://www.w3.org/ns/rdfa#prefix> "rdfa";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/rdfa#".
+_:b33 <http://www.w3.org/ns/rdfa#prefix> "schema";
+    <http://www.w3.org/ns/rdfa#uri> "http://schema.org/".
+_:b34 <http://www.w3.org/ns/rdfa#prefix> "cc";
+    <http://www.w3.org/ns/rdfa#uri> "http://creativecommons.org/ns#".
+_:b35 <http://www.w3.org/ns/rdfa#prefix> "foaf";
+    <http://www.w3.org/ns/rdfa#uri> "http://xmlns.com/foaf/0.1/".
+_:b36 <http://www.w3.org/ns/rdfa#prefix> "ma";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/ma-ont#".
+_:b37 <http://www.w3.org/ns/rdfa#prefix> "sd";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/sparql-service-description#".
+_:b38 <http://www.w3.org/ns/rdfa#prefix> "geo";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2003/01/geo/wgs84_pos#".
+_:b39 <http://www.w3.org/ns/rdfa#prefix> "dbo";
+    <http://www.w3.org/ns/rdfa#uri> "http://dbpedia.org/ontology/";
+    <http://www.w3.org/ns/rdfa#prefix> "dbpedia-owl";
+    <http://www.w3.org/ns/rdfa#uri> "http://dbpedia.org/ontology/".
+_:b40 <http://www.w3.org/ns/rdfa#prefix> "dbpedia";
+    <http://www.w3.org/ns/rdfa#uri> "http://dbpedia.org/resource/".
+_:b41 <http://www.w3.org/ns/rdfa#prefix> "dbpprop";
+    <http://www.w3.org/ns/rdfa#uri> "http://dbpedia.org/property/".
+_:b42 <http://www.w3.org/ns/rdfa#prefix> "rss";
+    <http://www.w3.org/ns/rdfa#uri> "http://purl.org/rss/1.0/".
+_:b43 <http://www.w3.org/ns/rdfa#prefix> "cnt";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2011/content#".

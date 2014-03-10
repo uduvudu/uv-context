@@ -4,7 +4,6 @@
   "description": "Uduvudu Core Initial Context (a bunch of RDF prefixes)",
   "main": "index.js",
   "dependencies": {
-    "gulp": "~3.5.2"
   },
   "devDependencies": {
     "gulp": "^3.5.5",
