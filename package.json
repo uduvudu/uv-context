@@ -15,5 +15,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adrian Gschwend",
-  "license": "Apache"
+  "license": "MIT"
 }

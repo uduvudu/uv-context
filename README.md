@@ -39,7 +39,7 @@ The RDFa prefixes get sourced automatically, other prefixes are maintained in a 
 
 ## Credits
 * Adrian Gschwend <ktk@netlabs.org>
-* Pascal Mainini <pascal@mainini.ch>
+* [Pascal Mainini](http://mainini.ch/)
 * DBpedia & DERI (prefix.cc)
 
 ## License
