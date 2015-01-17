@@ -55,11 +55,6 @@
   rdfa:prefix "hydra" ;
   rdfa:uri "http://www.w3.org/ns/hydra/core#" .
 
-[] a rdfa:PrefixMapping ;
-  dcterms:description "Creative Commons Rights Expression Language" ;
-  rdfa:prefix "cc" ;
-  rdfa:uri "http://creativecommons.org/ns#" .
-
 ## Template
 #[] a rdfa:PrefixMapping ;
 #  dcterms:description "" ;
