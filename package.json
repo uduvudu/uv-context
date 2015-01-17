@@ -1,15 +1,16 @@
 {
   "name": "uduvudu-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Uduvudu Core Initial Context (a bunch of RDF prefixes)",
   "main": "index.js",
   "dependencies": {
   },
   "devDependencies": {
-    "gulp": "^3.5.5",
-    "request": "^2.34.0",
-    "n3": "^0.2.4",
-    "combined-stream": "0.0.4"
+    "gulp": "3.8.*",
+    "request": "2.51.*",
+    "n3": "0.4.*",
+    "combined-stream": "0.0.*",
+    "tape": "3.2.*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -82,3 +82,7 @@ _:b42 <http://www.w3.org/ns/rdfa#prefix> "rss" .
 _:b42 <http://www.w3.org/ns/rdfa#uri> "http://purl.org/rss/1.0/" .
 _:b43 <http://www.w3.org/ns/rdfa#prefix> "cnt" .
 _:b43 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2011/content#" .
+_:b44 <http://www.w3.org/ns/rdfa#prefix> "vs" .
+_:b44 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2003/06/sw-vocab-status/ns#" .
+_:b45 <http://www.w3.org/ns/rdfa#prefix> "hydra" .
+_:b45 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/hydra/core#" .
