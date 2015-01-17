@@ -43,6 +43,23 @@
   rdfa:prefix "cnt" ;
   rdfa:uri "http://www.w3.org/2011/content#" .
 
+[] a rdfa:PrefixMapping ;
+  dcterms:description "SemWeb Vocab Status ontology" ;
+  rdfs:isDefinedBy <http://www.w3.org/2003/06/sw-vocab-status/note> ;
+  rdfa:prefix "vs" ;
+  rdfa:uri "http://www.w3.org/2003/06/sw-vocab-status/ns#" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Hydra Core Vocabulary" ;
+  rdfs:isDefinedBy <http://www.hydra-cg.com/spec/latest/core/> ;
+  rdfa:prefix "hydra" ;
+  rdfa:uri "http://www.w3.org/ns/hydra/core#" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Creative Commons Rights Expression Language" ;
+  rdfa:prefix "cc" ;
+  rdfa:uri "http://creativecommons.org/ns#" .
+
 ## Template
 #[] a rdfa:PrefixMapping ;
 #  dcterms:description "" ;
