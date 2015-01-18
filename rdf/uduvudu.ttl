@@ -86,3 +86,13 @@ _:b44 <http://www.w3.org/ns/rdfa#prefix> "vs";
     <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/2003/06/sw-vocab-status/ns#".
 _:b45 <http://www.w3.org/ns/rdfa#prefix> "hydra";
     <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/hydra/core#".
+_:b46 <http://www.w3.org/ns/rdfa#prefix> "gn";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.geonames.org/ontology#".
+_:b47 <http://www.w3.org/ns/rdfa#prefix> "gtfs";
+    <http://www.w3.org/ns/rdfa#uri> "http://vocab.gtfs.org/terms#".
+_:b48 <http://www.w3.org/ns/rdfa#prefix> "ldp";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/ldp#".
+_:b49 <http://www.w3.org/ns/rdfa#prefix> "oa";
+    <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/oa#".
+_:b50 <http://www.w3.org/ns/rdfa#prefix> "fam";
+    <http://www.w3.org/ns/rdfa#uri> "http://vocab.fusepool.info/fam#".

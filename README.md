@@ -32,10 +32,11 @@ For new requests, first check if the creator/owner of the namespace defined a pr
 
 If there are no conflicts, the RDFa Initial Context list will get updated on each release. In case of conflicts they will be resolved in the next MAJOR version where the RDFa Core Initial Context wins over Uduvudu prefixes.
 
-The RDFa prefixes get sourced automatically, other prefixes are maintained in a Turtle file in this repository. 
+The RDFa prefixes get sourced automatically, other prefixes are maintained in a Turtle file in this repository.
 
 ## History
 * 0.0.1: Initial version with base prefixes
+* 0.0.3: Added tests for JSON-LD & added more prefixes
 
 ## Credits
 * Adrian Gschwend <ktk@netlabs.org>
@@ -46,7 +47,7 @@ The RDFa prefixes get sourced automatically, other prefixes are maintained in a 
 
 The MIT License (MIT)
 
-Copyright (c) 2014 netlabs.org
+Copyright (c) 2015 netlabs.org, Zazuko GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
