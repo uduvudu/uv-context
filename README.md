@@ -8,7 +8,7 @@ If this is useful for you, feel free to include it into your project. There are 
 ## Using it
 We provide four static files:
 
-* A manually maintained Turtle file for prefixes which are not in RDFa Core Initial Context.
+* A manually maintained Turtle file for prefixes, which are not in RDFa Core Initial Context.
 * A snapshot of the RDFa Initial Context (in Turtle)
 * A N-Tripes serialization containing prefixes and URIs (RDFa Initial Context and ours)
 * A [JSON-LD context](http://www.w3.org/TR/json-ld/#the-context) serialization containing prefixes and URIs (RDFa Initial Context and ours)
@@ -22,7 +22,7 @@ Please do *not* make this list available on a URI outside of Github for the mome
 ## Versioning scheme
 Each defined prefix is a mapping to an URI. It is a simple 1:1 mapping to make sure we get unambiguous results on [shrinking and resolving](http://www.w3.org/TR/rdf-interfaces/#prefix-maps) URIs. Once a prefix is in this repository, it cannot be altered anymore within same MAJOR release according to [Semantic Versioning 2.0.0](http://semver.org/).
 
-This makes sure that within the same MAJOR release prefixes stay the same and do not break existing code. MINOR versions will be used for newly introduced prefixes which can be requested by opening a pull request on Github.
+This makes sure that within the same MAJOR release prefixes stay the same and do not break existing code. MINOR versions will be used for newly introduced prefixes, which can be requested by opening a pull request on Github.
 
 If you are using tools like NPM you should block the MAJOR release number to be sure your code does not break in the future. MINOR and REVISION releases can be wildcards. In case you define your own additional prefixes you might want to block MINOR too to avoid clashes.
 
@@ -32,7 +32,7 @@ For new requests, first check if the creator/owner of the namespace defined a pr
 
 If there are no conflicts, the RDFa Initial Context list will get updated on each release. In case of conflicts they will be resolved in the next MAJOR version where the RDFa Core Initial Context wins over Uduvudu prefixes.
 
-The RDFa prefixes get sourced automatically, other prefixes are maintained in a Turtle file in this repository.
+The RDFa prefixes get sourced automatically; other prefixes are maintained in a Turtle file in this repository.
 
 ## History
 * 0.0.1: Initial version with base prefixes
