@@ -9,7 +9,7 @@
 [] a rdfa:PrefixMapping ;
   dcterms:description "Basic Geo (WGS84 lat/long) Vocabulary" ;
   rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/> ;
-  rdfa:prefix "geo" ;
+  rdfa:prefix "wgs" ;
   rdfa:uri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
 
 [] a rdfa:PrefixMapping ;
