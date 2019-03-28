@@ -8,7 +8,7 @@ If this is useful for you, feel free to include it into your project. There are 
 ## Using it
 We provide four static files:
 
-* A manually maintained Turtle file for prefixes, which are not in RDFa Core Initial Context.
+* A manually maintained Turtle file for prefixes, which are not in RDFa Core Initial Context. See [rdf/uduvudu-context.ttl](rdf/uduvudu-context.ttl)
 * A snapshot of the RDFa Initial Context (in Turtle)
 * A N-Tripes serialization containing prefixes and URIs (RDFa Initial Context and ours)
 * A [JSON-LD context](http://www.w3.org/TR/json-ld/#the-context) serialization containing prefixes and URIs (RDFa Initial Context and ours)
@@ -28,7 +28,7 @@ If you are using tools like NPM you should block the MAJOR release number to be 
 
 ## Adding new prefixes
 
-For new requests, first check if the creator/owner of the namespace defined a prefix. If not check [prefix.cc](http://prefix.cc/). In case prefix.cc is ambiguous a discussion should be raised before the pull-requests gets integrated. Last thing to check are the predefined namespaces in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popular RDF resources. If you find one please refer to it in the pull request.
+New prefixes can be added by opening a pull request on Github. For new requests, first check if the creator/owner of the namespace defined a prefix. If not check [prefix.cc](http://prefix.cc/). In case prefix.cc is ambiguous a discussion should be raised before the pull-requests gets integrated. Last thing to check are the predefined namespaces in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popular RDF resources like [LOV](http://lov.okfn.org/dataset/lov/vocabs). If you find one please refer to it in the pull request.
 
 If there are no conflicts, the RDFa Initial Context list will get updated on each release. In case of conflicts they will be resolved in the next MAJOR version where the RDFa Core Initial Context wins over Uduvudu prefixes.
 
@@ -47,7 +47,7 @@ The RDFa prefixes get sourced automatically; other prefixes are maintained in a 
 
 The MIT License (MIT)
 
-Copyright (c) 2015 netlabs.org, Zazuko GmbH
+Copyright (c) 2015-2017 netlabs.org, Zazuko GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
