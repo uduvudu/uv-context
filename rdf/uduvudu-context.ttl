@@ -73,19 +73,6 @@
   rdfa:prefix "ldp" ;
   rdfa:uri "http://www.w3.org/ns/ldp#" .
 
-[] a rdfa:PrefixMapping ;
-  dcterms:description "Open Annotation Data Model" ;
-  rdfs:isDefinedBy <http://www.openannotation.org/spec/core/> ;
-  rdfa:prefix "oa" ;
-  rdfa:uri "http://www.w3.org/ns/oa#" .
-
-[] a rdfa:PrefixMapping ;
-  dcterms:description "Fusepool P3 Annotation Model" ;
-  rdfs:isDefinedBy <https://github.com/fusepoolP3/overall-architecture/blob/master/wp3/fp-anno-model/fp-anno-model.md> ;
-  rdfa:prefix "fam" ;
-  rdfa:uri "http://vocab.fusepool.info/fam#" .
-
-
 ## Template
 #[] a rdfa:PrefixMapping ;
 #  dcterms:description "" ;
