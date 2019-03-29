@@ -73,6 +73,37 @@
   rdfa:prefix "ldp" ;
   rdfa:uri "http://www.w3.org/ns/ldp#" .
 
+[] a rdfa:PrefixMapping ;
+  dcterms:description "GeoSPARQL - A Geographic Query Language for RDF Data" ;
+  rdfs:isDefinedBy <https://www.opengeospatial.org/standards/geosparql> ;
+  rdfa:prefix "geo" ;
+  rdfa:uri "http://www.opengis.net/ont/geosparql#" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "GeoSPARQL - SPARQL extension functions for spatial computations" ;
+  rdfs:isDefinedBy <https://www.opengeospatial.org/standards/geosparql> ;
+  rdfa:prefix "geof" ;
+  rdfa:uri "http://www.opengis.net/def/function/geosparql/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "GeoSPARQL - RIF rules for query transformation" ;
+  rdfs:isDefinedBy <https://www.opengeospatial.org/standards/geosparql> ;
+  rdfa:prefix "geor" ;
+  rdfa:uri "http://www.opengis.net/def/rule/geosparql/" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "Simplified Features Geometry - A specification of GeoSPARQL for simple features geometries (points, lines, polygons ...)" ;
+  rdfs:isDefinedBy <https://www.opengeospatial.org/standards/geosparql> ;
+  rdfa:prefix "sf" ;
+  rdfa:uri "http://www.opengis.net/ont/sf#" .
+
+[] a rdfa:PrefixMapping ;
+  dcterms:description "OGC Geometry - A specialization of GeoSPARQL defining specific subtypes of Geometry" ;
+  rdfs:isDefinedBy <https://www.opengeospatial.org/standards/geosparql> ;
+  rdfa:prefix "gml" ;
+  rdfa:uri "http://www.opengis.net/ont/gml#" .
+
+
 ## Template
 #[] a rdfa:PrefixMapping ;
 #  dcterms:description "" ;

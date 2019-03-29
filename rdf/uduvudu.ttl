@@ -1,5 +1,4 @@
 @prefix rdfa: <http://www.w3.org/ns/rdfa#>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 _:b1 rdfa:prefix "v";
     rdfa:uri "http://rdf.data-vocabulary.org/#".
@@ -36,8 +35,6 @@ _:b15 rdfa:prefix "ical";
 _:b16 rdfa:prefix "dcat";
     rdfa:uri "http://www.w3.org/ns/dcat#".
 _:b17 rdfa:prefix "oa";
-    rdfa:uri "http://www.w3.org/ns/oa#".
-_:b58 rdfa:prefix "oa";
     rdfa:uri "http://www.w3.org/ns/oa#".
 _:b18 rdfa:prefix "gr";
     rdfa:uri "http://purl.org/goodrelations/v1#".
@@ -115,5 +112,13 @@ _:b55 rdfa:prefix "gn";
     rdfa:uri "http://www.geonames.org/ontology#".
 _:b56 rdfa:prefix "gtfs";
     rdfa:uri "http://vocab.gtfs.org/terms#".
-_:b59 rdfa:prefix "fam";
-    rdfa:uri "http://vocab.fusepool.info/fam#".
+_:b58 rdfa:prefix "geo";
+    rdfa:uri "http://www.opengis.net/ont/geosparql#".
+_:b59 rdfa:prefix "geof";
+    rdfa:uri "http://www.opengis.net/def/function/geosparql/".
+_:b60 rdfa:prefix "geor";
+    rdfa:uri "http://www.opengis.net/def/rule/geosparql/".
+_:b61 rdfa:prefix "sf";
+    rdfa:uri "http://www.opengis.net/ont/sf#".
+_:b62 rdfa:prefix "gml";
+    rdfa:uri "http://www.opengis.net/ont/gml#".

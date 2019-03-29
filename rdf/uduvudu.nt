@@ -34,8 +34,6 @@ _:b16 <http://www.w3.org/ns/rdfa#prefix> "dcat" .
 _:b16 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/dcat#" .
 _:b17 <http://www.w3.org/ns/rdfa#prefix> "oa" .
 _:b17 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/oa#" .
-_:b58 <http://www.w3.org/ns/rdfa#prefix> "oa" .
-_:b58 <http://www.w3.org/ns/rdfa#uri> "http://www.w3.org/ns/oa#" .
 _:b18 <http://www.w3.org/ns/rdfa#prefix> "gr" .
 _:b18 <http://www.w3.org/ns/rdfa#uri> "http://purl.org/goodrelations/v1#" .
 _:b19 <http://www.w3.org/ns/rdfa#prefix> "rdf" .
@@ -112,5 +110,13 @@ _:b55 <http://www.w3.org/ns/rdfa#prefix> "gn" .
 _:b55 <http://www.w3.org/ns/rdfa#uri> "http://www.geonames.org/ontology#" .
 _:b56 <http://www.w3.org/ns/rdfa#prefix> "gtfs" .
 _:b56 <http://www.w3.org/ns/rdfa#uri> "http://vocab.gtfs.org/terms#" .
-_:b59 <http://www.w3.org/ns/rdfa#prefix> "fam" .
-_:b59 <http://www.w3.org/ns/rdfa#uri> "http://vocab.fusepool.info/fam#" .
+_:b58 <http://www.w3.org/ns/rdfa#prefix> "geo" .
+_:b58 <http://www.w3.org/ns/rdfa#uri> "http://www.opengis.net/ont/geosparql#" .
+_:b59 <http://www.w3.org/ns/rdfa#prefix> "geof" .
+_:b59 <http://www.w3.org/ns/rdfa#uri> "http://www.opengis.net/def/function/geosparql/" .
+_:b60 <http://www.w3.org/ns/rdfa#prefix> "geor" .
+_:b60 <http://www.w3.org/ns/rdfa#uri> "http://www.opengis.net/def/rule/geosparql/" .
+_:b61 <http://www.w3.org/ns/rdfa#prefix> "sf" .
+_:b61 <http://www.w3.org/ns/rdfa#uri> "http://www.opengis.net/ont/sf#" .
+_:b62 <http://www.w3.org/ns/rdfa#prefix> "gml" .
+_:b62 <http://www.w3.org/ns/rdfa#uri> "http://www.opengis.net/ont/gml#" .
