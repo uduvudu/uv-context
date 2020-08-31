@@ -1,4 +1,7 @@
 # Uduvudu Initial Context
+
+__NOTE__: This repo got replaced by [zazuko/rdf-vocabularies](https://github.com/zazuko/rdf-vocabularies/). There will be no further updates here.
+
 This repository contains a definition of predefined RDF vocabulary prefixes used in Uduvudu and related software.
 
 It is extending [RDFa Core Initial Context](http://www.w3.org/2011/rdfa-context/rdfa-1.1) which provides base prefixes.
